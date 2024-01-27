@@ -37,11 +37,18 @@ body, html {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 
 .logo-container img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.logotxt {
+  color: #9370DB; /* Light purple color */
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin as needed */
 }
 
 footer {
@@ -56,10 +63,12 @@ footer {
 
 .slider {
   display: flex;
+  width: auto; /* Adjust width as needed */
+  transition: transform 0.5s ease;
 }
 
 .slide {
-  flex: 0 0 25%; /* Adjust width based on number of slides */
+  flex: 0 0 calc(100% / 3); /* Adjust width based on number of slides */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -81,4 +90,48 @@ footer {
 
 .next {
   right: 0;
+}
+
+.content {
+  /* Add background image here */
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+/* Additional styles for footer slides */
+.slide.bordered {
+  border: 2px solid grey; /* Adjust border style as needed */
+}
+
+.color {
+  height: 50px;
+}
+
+.color1 {
+  background-color: #7a5cff; /* Blurred blue-violet */
+}
+
+.color2 {
+  background-color: #ff69b4; /* Blurred pink */
+}
+
+.color3 {
+  background-color: #8a2be2; /* Blurred blue-purple */
+}
+
+.color4 {
+  background-color: #9370db; /* Blurred medium purple */
+}
+
+.color5 {
+  background-color: #ff7f50; /* Blurred coral */
+}
+
+.color6 {
+  background-color: #40e0d0; /* Blurred turquoise */
+}
+
+.color7 {
+  background-color: #ff8c00; /* Blurred dark orange */
 }
