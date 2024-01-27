@@ -34,10 +34,10 @@ body, html {
 
 .logo-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 .logo-container img {
@@ -46,9 +46,10 @@ body, html {
 }
 
 .logotxt {
-  color: #9370DB; /* Light purple color */
+  color: #6f84e2;
   text-align: center;
-  margin-top: 10px; /* Adjust the margin as needed */
+  margin-top: 10px;
+  font-size: 30px;
 }
 
 footer {
@@ -92,12 +93,6 @@ footer {
   right: 0;
 }
 
-.content {
-  /* Add background image here */
-  background-size: cover;
-  background-position: center;
-  padding: 200px 0;
-}
 
 /* Additional styles for footer slides */
 .slide.bordered {
