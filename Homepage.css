@@ -89,9 +89,14 @@ footer {
   padding: 100px 0;
 }
 
+h1{
+  text-align: center;
+}
+
 .slider-container {
   position: relative;
   overflow: hidden;
+  font-size: large;
 }
 
 .slider {
@@ -104,7 +109,7 @@ footer {
   flex: 0 0 calc(100% / 3); /* Adjust width based on number of slides */
   padding: 50px 20px; /* Increase horizontal padding to add space between cards */
   margin: 0 10px; /* Add space between the borders */
-  box-sizing: border-box;
+
 }
 
 .prev, .next {
@@ -128,7 +133,8 @@ footer {
 
 /* Additional styles for footer slides */
 .slide.bordered {
-  border: 2px solid grey; /* Adjust border style as needed */
+  border: 0px solid grey; /* Adjust border style as needed */
+  background-color: rgb(218, 218, 218);
 }
 
 .color {
