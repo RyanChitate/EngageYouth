@@ -3,15 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Homepage.css">
   <title>Your Website</title>
+  <link rel="stylesheet" href="Homepage.css">
 </head>
 <body>
-  <div class="blur-background">
-    <!-- Content goes here -->
-    <nav class="centered-navbar">
-      <!-- Navbar content goes here -->
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./Vision.html">Vision</a></li>
+          <li><a href="./Mission.html">Mission</a></li>
+        </ul>
+      </div>
     </nav>
-  </div>
+  </header>
+
+  <section class="content">
+    <!-- Content here -->
+    <div class="logo-container">
+      <img src="your-logo.png" alt="Your Logo">
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Prioritise Mental Health</h2>
+            <p>Create a safe and supportive environment that promotes mental well-being, equipping young boys with the tools to navigate challenges, build resilience, and develop a positive mindset.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Facilitate Mentorship</h2>
+            <p>Establish meaningful connections between young boys and experienced mentors who serve as possible role models. Our mentors will guide, inspire, and empower the boys to discover their potential and pursue their aspirations.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Skills Development</h2>
+            <p>Offers a diverse range of educational and skills building initiatives to enhance boys' capabilities. This includes academic support, vocational training, and experiential learning opportunities that prepare them for a successful and fulfilling future.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Community Engagement</h2>
+            <p>Foster a sense of belonging and community among young boys, encouraging collaboration and mutual support. By actively involving families, schools, and local communities, we aim to create a holistic support system for the boys.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Advocate for Mental Health Awareness</h2>
+            <p>Work towards destigmatizing mental health issues and promoting open conversations. Advocate for policies that prioritize mental health in educational institutions and society at large.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Empower Through Inclusivity</h2>
+            <p>Embrace diversity and inclusivity, ensuring that our programs cater to the unique needs and backgrounds of all young boys. We strive to create an environment where every individual feels valued, respected, and empowered.</p>
+          </div>
+          <div class="slide square">
+            <div class="color"></div>
+            <h2>Measure Impact</h2>
+            <p>Regularly assess and evaluate the impact of our programs to continuously refine and enhance our offerings. Collaborate with stakeholders to gather feedback, track progress, and adapt our approach to best meet the evolving needs of the young boys we serve.</p>
+          </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

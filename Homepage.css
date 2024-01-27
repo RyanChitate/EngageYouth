@@ -1,23 +1,79 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .blur-background {
-    background-image: url('your-background-image.jpg'); /* Replace with the path to your background image */
-    background-size: cover;
-    filter: blur(10px); /* Adjust the blur intensity as needed */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .centered-navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
-    text-align: center;
-  }
-  
+body, html {
+  background-image: url('./images/5143211.webp');
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  /* Add background image here */
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 100px 0;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 25%; /* Adjust width based on number of slides */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
