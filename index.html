@@ -4,49 +4,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"="width=device-width, initial-scale=1.0">
-  <title>Engage-Youth</title>
+  <title>Engage Youth</title>
   <link rel="stylesheet"
     href="src/css/index.css">
 </head>
 
-<body class="grid text-gray-800">
+<body class="grid font-sans text-neutral-800">
 
-  <header class="sticky top-0 text-gray-200 bg-gray-800">
-    <nav class="">
-      <ul class="flex items-center justify-end capitalize">
-        <li
-          class="p-3 hover:cursor-pointer hover:text-gray-800 hover:bg-gray-200">
-          <a href="#about-us">about-us</a>
+  <header id="welcome"
+    class="sticky z-10 m-1 text-neutral-50 top-1">
+    <nav class="bg-neutral-700">
+      <ul
+        class="flex items-center justify-start gap-2 font-serif text-lg capitalize">
+        <a href="/#welcome"
+          class=" hover:cursor-pointer">
+          <li
+            class="flex items-center gap-1 px-4 py-2 rounded-sm hover:text-neutral-800 hover:bg-neutral-100">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="rounded-sm hover:text-neutral-800 hover:bg-neutral-100"
+              width="20"
+              height="20"
+              fill="currentColor">
+              <path
+                d="M21 20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V9.48907C3 9.18048 3.14247 8.88917 3.38606 8.69972L11.3861 2.47749C11.7472 2.19663 12.2528 2.19663 12.6139 2.47749L20.6139 8.69972C20.8575 8.88917 21 9.18048 21 9.48907V20ZM11 13V19H13V13H11Z">
+              </path>
+            </svg>
+            welcome
+          </li>
+        </a>
+        <a href="src/html/youth_engagement.html"
+          class="hover:cursor-pointer">
+          <li
+            class="flex items-center gap-1 px-4 py-2 rounded-sm hover:text-neutral-800 hover:bg-neutral-100">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="rounded-sm hover:text-neutral-800 hover:bg-neutral-100"
+              width="20"
+              height="20"
+              fill="currentColor">
+              <path
+                d="M12 10C14.2091 10 16 8.20914 16 6 16 3.79086 14.2091 2 12 2 9.79086 2 8 3.79086 8 6 8 8.20914 9.79086 10 12 10ZM5.5 13C6.88071 13 8 11.8807 8 10.5 8 9.11929 6.88071 8 5.5 8 4.11929 8 3 9.11929 3 10.5 3 11.8807 4.11929 13 5.5 13ZM21 10.5C21 11.8807 19.8807 13 18.5 13 17.1193 13 16 11.8807 16 10.5 16 9.11929 17.1193 8 18.5 8 19.8807 8 21 9.11929 21 10.5ZM12 11C14.7614 11 17 13.2386 17 16V22H7V16C7 13.2386 9.23858 11 12 11ZM5 15.9999C5 15.307 5.10067 14.6376 5.28818 14.0056L5.11864 14.0204C3.36503 14.2104 2 15.6958 2 17.4999V21.9999H5V15.9999ZM22 21.9999V17.4999C22 15.6378 20.5459 14.1153 18.7118 14.0056 18.8993 14.6376 19 15.307 19 15.9999V21.9999H22Z">
+              </path>
+            </svg>
+            youth-engage
+          </li>
+        </a>
+        <a href="/#about-us"
+          class="block hover:cursor-pointer">
+          <li
+            class="flex items-center gap-1 px-4 py-2 rounded-sm hover:text-neutral-800 hover:bg-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="rounded-sm hover:text-neutral-800 hover:bg-neutral-100"
+              width="20"
+              height="20"
+              fill="currentColor">
+              <path
+                d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z">
+              </path>
+            </svg>
+            about-us
+          </li>
+        </a>
+      </ul>
+      <ul
+        class="flex items-center justify-end hidden text-sm capitalize gap-x-2">
+        <li class="py-2 w-[12ch]"><a href="/#mi">measure impact</a>
         </li>
-        <li
-          class="p-3 hover:cursor-pointer hover:text-gray-800 hover:bg-gray-200">
-          <a href="src/html/youth_engagement.html">youth-engagement</a>
-        </li>
-        <li
-          class="p-3 hover:cursor-pointer hover:text-gray-800 hover:bg-gray-200">
-          <a href="index.html">welcome</a>
-        </li>
+        <li class="py-2 w-[12ch]"><a href="/#sd">skills
+            development</a></li>
+        <li class="py-2 w-[12ch]"><a href="/#ce">community
+            engagement</a></li>
+        <li class="py-2 w-[12ch]"><a href="/#fm">facilitate
+            mentorship</a></li>
+        <li class="py-2 w-[12ch]"><a href="/#pmh">prioritise mental
+            health</a></li>
+        <li class="py-2 w-[12ch]"><a href="/#mha">mental health
+            awareness</a></li>
+        <li class="py-2 w-[12ch]"><a href="/#eti">empower via
+            inclusivity</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="px-6 bg-gray-50">
-    <section class="">
-      <div class="flex flex-col items-center">
-        <img src="assets/images/engage-youth.png"
-          alt="Engage Youth Logo"
-          class="">
-        <p class="my-3 font-light uppercase">sakhisizwe one boy at a time
-        <p>
-      </div>
+  <main class="w-[110ch] px-5 mx-auto bg-neutral-50 max-w-7xl rounded-2xl">
+
+    <section class="flex items-center justify-center gap-10 mx-auto my-20">
+      <p class="font-light uppercase text-wrap w-[1/2]">
+        <span class="text-6xl font-semibold uppercase">sakhisizwe</span>
+        <br>
+        one boy at a time
+      </p>
+      <img src="assets/images/enagage-youth_link.png"
+        alt="Engage Youth Logo"
+        class="relative object-cover w-48">
     </section>
 
-    <section class="">
+    <section id="about-us"
+      class="">
       <div class="">
         <div class="">
           <div class="">
+            <div class="">
+              <div class=""></div>
+              <h2 id="mi">Measure Impact</h2>
+              <p>Regularly assess and evaluate the impact of our programs to
+                continuously refine and enhance our offerings. Collaborate
+                with stakeholders to gather feedback, track progress, and
+                adapt our approach to best meet the evolving needs of the
+                young boys we serve.</p>
+            </div>
+            <div class="">
+              <div class=""></div>
+              <h2 id="sd">Skills Development</h2>
+              <p>Offers a diverse range of educational and skills building
+                initiatives to enhance boys' capabilities. This includes
+                academic support, vocational training, and experiential
+                learning opportunities that prepare them for a successful and
+                fulfilling future.</p>
+            </div>
             <div class=""></div>
-            <h2>Prioritise Mental Health</h2>
+            <h2 id="pmh">Prioritise Mental Health</h2>
             <p>Create a safe and supportive environment that promotes mental
               well-being, equipping young boys with the tools to navigate
               challenges, build resilience, and develop a positive mindset.
@@ -54,7 +133,7 @@
           </div>
           <div class="">
             <div class=""></div>
-            <h2>Facilitate Mentorship</h2>
+            <h2 id="fm">Facilitate Mentorship</h2>
             <p>Establish meaningful connections between young boys and
               experienced mentors who serve as possible role models. Our
               mentors will guide, inspire, and empower the boys to discover
@@ -62,16 +141,7 @@
           </div>
           <div class="">
             <div class=""></div>
-            <h2>Skills Development</h2>
-            <p>Offers a diverse range of educational and skills building
-              initiatives to enhance boys' capabilities. This includes
-              academic support, vocational training, and experiential
-              learning opportunities that prepare them for a successful and
-              fulfilling future.</p>
-          </div>
-          <div class="">
-            <div class=""></div>
-            <h2>Community Engagement</h2>
+            <h2 id="ce">Community Engagement</h2>
             <p>Foster a sense of belonging and community among young boys,
               encouraging collaboration and mutual support. By actively
               involving families, schools, and local communities, we aim to
@@ -79,7 +149,7 @@
           </div>
           <div class="">
             <div class=""></div>
-            <h2>Advocate for Mental Health Awareness</h2>
+            <h2 id="mha">Advocate for Mental Health Awareness</h2>
             <p>Work towards destigmatizing mental health issues and
               promoting open conversations. Advocate for policies that
               prioritize mental health in educational institutions and
@@ -87,20 +157,11 @@
           </div>
           <div class="">
             <div class=""></div>
-            <h2>Empower Through Inclusivity</h2>
+            <h2 id="eti">Empower Through Inclusivity</h2>
             <p>Embrace diversity and inclusivity, ensuring that our programs
               cater to the unique needs and backgrounds of all young boys.
               We strive to create an environment where every individual
               feels valued, respected, and empowered.</p>
-          </div>
-          <div class="">
-            <div class=""></div>
-            <h2>Measure Impact</h2>
-            <p>Regularly assess and evaluate the impact of our programs to
-              continuously refine and enhance our offerings. Collaborate
-              with stakeholders to gather feedback, track progress, and
-              adapt our approach to best meet the evolving needs of the
-              young boys we serve.</p>
           </div>
         </div>
       </div>
