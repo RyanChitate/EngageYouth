@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+  class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -9,13 +10,15 @@
     href="src/css/index.css">
 </head>
 
-<body class="grid font-sans text-neutral-800">
+<body id="welcome"
+  class="grid font-sans text-neutral-800">
 
-  <header id="welcome"
-    class="sticky z-10 m-1 text-neutral-50 top-1">
-    <nav class="bg-neutral-700">
-      <ul
-        class="flex items-center justify-start gap-2 font-serif text-lg capitalize">
+  <header class="sticky top-0 z-10 bg-white shadow-md">
+    <nav class="flex justify-between p-2">
+      <img src="assets/images/engage-youth.png"
+        alt="Engage Youth Logo"
+        class="w-28">
+      <ul class="flex items-center justify-end font-serif text-lg capitalize">
         <a href="/#welcome"
           class=" hover:cursor-pointer">
           <li
@@ -69,7 +72,7 @@
         </a>
       </ul>
       <ul
-        class="flex items-center justify-end hidden text-sm capitalize gap-x-2">
+        class="flex items-center justify-center hidden text-sm capitalize gap-x-2">
         <li class="py-2 w-[12ch]"><a href="/#mi">measure impact</a>
         </li>
         <li class="py-2 w-[12ch]"><a href="/#sd">skills
@@ -88,89 +91,139 @@
     </nav>
   </header>
 
-  <main class="w-[110ch] px-5 mx-auto bg-neutral-50 max-w-7xl rounded-2xl">
-
-    <section class="flex items-center justify-center gap-10 mx-auto my-20">
-      <p class="font-light uppercase text-wrap w-[1/2]">
+  <main class="snap-proximity snap-y scroll-pt-20">
+    <section class="flex items-center w-2/3 min-h-screen mx-auto snap-start">
+      <p
+        class="font-light uppercase text-wrap w-[1/2] flex-1 items-center justify-center flex flex-col">
         <span class="text-6xl font-semibold uppercase">sakhisizwe</span>
         <br>
         one boy at a time
       </p>
-      <img src="assets/images/enagage-youth_link.png"
-        alt="Engage Youth Logo"
-        class="relative object-cover w-48">
     </section>
 
-    <section id="about-us"
-      class="">
-      <div class="">
-        <div class="">
-          <div class="">
-            <div class="">
-              <div class=""></div>
-              <h2 id="mi">Measure Impact</h2>
-              <p>Regularly assess and evaluate the impact of our programs to
-                continuously refine and enhance our offerings. Collaborate
-                with stakeholders to gather feedback, track progress, and
-                adapt our approach to best meet the evolving needs of the
-                young boys we serve.</p>
+    <section class="min-h-screen bg-gray-50 max-w-7xl snap-start">
+      <h2 id="about-us"
+        class="pt-16 text-6xl font-semibold text-center snap-start">About Us
+      </h2>
+      <div class="relative text-lg">
+        <div class="flex flex-wrap w-[110ch] mx-auto">
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="mi"
+                class="inline-block clear-both font-serif text-3xl font-semibold text-wrap">
+                Measure Impact</h2>
             </div>
-            <div class="">
-              <div class=""></div>
-              <h2 id="sd">Skills Development</h2>
-              <p>Offers a diverse range of educational and skills building
-                initiatives to enhance boys' capabilities. This includes
-                academic support, vocational training, and experiential
-                learning opportunities that prepare them for a successful and
-                fulfilling future.</p>
+            <p>Regularly assess and evaluate
+              the impact of our programs to continuously refine and enhance
+              our offerings. Collaborate with stakeholders to gather feedback,
+              track progress, and adapt our approach to best meet the evolving
+              needs of the young boys we serve.</p>
+          </div>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="sd"
+                class="inline-block clear-both font-serif text-3xl font-semibold text-wrap">
+                Skills Development</h2>
             </div>
-            <div class=""></div>
-            <h2 id="pmh">Prioritise Mental Health</h2>
+            <p>Offers a diverse range of educational and skills building
+              initiatives to enhance boys' capabilities. This includes
+              academic support, vocational training, and experiential
+              learning opportunities that prepare them for a successful and
+              fulfilling future.</p>
+          </div>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="mh"
+                class="inline-block clear-both font-serif text-3xl font-semibold text-wrap">
+                Mental Health</h2>
+            </div>
             <p>Create a safe and supportive environment that promotes mental
               well-being, equipping young boys with the tools to navigate
               challenges, build resilience, and develop a positive mindset.
             </p>
           </div>
-          <div class="">
-            <div class=""></div>
-            <h2 id="fm">Facilitate Mentorship</h2>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="fm"
+                class="inline-block clear-both font-serif text-3xl font-semibold text-wrap">
+                Facilitate Mentorship</h2>
+            </div>
             <p>Establish meaningful connections between young boys and
               experienced mentors who serve as possible role models. Our
               mentors will guide, inspire, and empower the boys to discover
               their potential and pursue their aspirations.</p>
           </div>
-          <div class="">
-            <div class=""></div>
-            <h2 id="ce">Community Engagement</h2>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="ce"
+                class="inline-block clear-both font-serif text-2xl font-semibold text-wrap">
+                Community Engagement</h2>
+            </div>
             <p>Foster a sense of belonging and community among young boys,
               encouraging collaboration and mutual support. By actively
               involving families, schools, and local communities, we aim to
               create a holistic support system for the boys.</p>
           </div>
-          <div class="">
-            <div class=""></div>
-            <h2 id="mha">Advocate for Mental Health Awareness</h2>
-            <p>Work towards destigmatizing mental health issues and
-              promoting open conversations. Advocate for policies that
-              prioritize mental health in educational institutions and
-              society at large.</p>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="ce"
+                class="inline-block clear-both font-serif text-2xl font-semibold text-wrap">
+                Advocate for Mental Health Awareness</h2>
+              <p>Work towards destigmatizing mental health issues and
+                promoting open conversations. Advocate for policies that
+                prioritize mental health in educational institutions and
+                society at large.</p>
+            </div>
           </div>
-          <div class="">
-            <div class=""></div>
-            <h2 id="eti">Empower Through Inclusivity</h2>
-            <p>Embrace diversity and inclusivity, ensuring that our programs
-              cater to the unique needs and backgrounds of all young boys.
-              We strive to create an environment where every individual
-              feels valued, respected, and empowered.</p>
+
+          <div class="w-3/6 gap-3 p-6 max-w-7xl">
+            <div class="mb-3">
+              <img src="/assets/images/engage-youth.png"
+                alt="Open Peep"
+                class="float-left w-3/12 mb-2 mr-4">
+              <h2 id="ce"
+                class="inline-block clear-both font-serif text-2xl font-semibold text-wrap">
+                Empower Through Inclusivity</h2>
+              <p>Embrace diversity and inclusivity, ensuring that our programs
+                cater to the unique needs and backgrounds of all young boys.
+                We strive to create an environment where every individual
+                feels valued, respected, and empowered.</p>
+            </div>
+
           </div>
         </div>
-      </div>
     </section>
   </main>
 
-  <footer class="p-3 font-medium capitalize">
+  <footer class="p-5 font-medium text-center capitalize">
     <p>Engage-Youth&copy;</p>
   </footer>
+
+
 </body>
 
 </html>
